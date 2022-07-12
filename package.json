@@ -1,0 +1,26 @@
+{
+  "name": "GitHubSDK-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "GitHubSDK.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-gitHubSDK": "jest GitHubSDK.test.js --watchAll"
+  },
+  "jest": {
+    "transformIgnorePatterns": []
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "jest": "^26.3.0",
+    "jest-babel": "^1.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-fetch": "^2.6.7"
+  }
+}
